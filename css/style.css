@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
-  --dark-one: #333;
-  --dark-two: #7a7a7a;
-  --main-color: #784cfb;
+  --dark-one: #1b1b1b;
+  --dark-two: #5a5a5a;
+  --main-color: #b9de52;
   --light-one: #fff;
   --light-two: #f9fafb;
   --light-three: #f6f7fb;
@@ -239,7 +239,7 @@ nav .container {
 }
 
 .logo {
-  width: 80px;
+  
   display: flex;
   align-items: center;
 }
