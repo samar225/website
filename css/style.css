@@ -57,7 +57,7 @@ img {
 
 .grid-2 {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1fr,2);
   align-items: center;
   justify-content: center;
 }
@@ -69,11 +69,11 @@ img {
 }
 
 .column-1 {
-  margin-right: 1.5rem;
+  margin-left: 1.5rem;
 }
 
 .column-2 {
-  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .image {
