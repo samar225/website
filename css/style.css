@@ -219,6 +219,7 @@ body{
   text-transform: uppercase;
   font-weight: 500;
   transition: 0.3s;
+  border: 0rem;
 }
 
 .btn:hover {
@@ -566,13 +567,14 @@ header .circle {
   margin: 0.45rem 0.4rem;
   padding: 0.85rem 1.8rem;
   color: #6b44e0;
-    text-transform: uppercase;
-  font-weight: 500;
+  text-transform: uppercase;
+  font-weight: 600;
   font-size: 1.1rem;
   line-height: 1;
   cursor: pointer;
   border-radius: 2rem;
   transition: 0.3s;
+
 }
 
 .filter-btn.active {
@@ -1173,6 +1175,7 @@ header .circle {
 .contact-input .btn {
   margin-top: 0.6rem;
 }
+
 
 /* End Contact */
 
@@ -1913,11 +1916,13 @@ header .circle {
 
   .grid-item {
     width: 50%;
+    
   }
 
   .gallery-image {
     height: 210px;
     max-width: 270px;
+   
   }
 
   .background-bg {

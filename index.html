@@ -144,9 +144,8 @@
             <button class="filter-btn active" data-filter="*">الكل</button>
             <button class="filter-btn" data-filter=".ui">UI/UX</button>
             <button class="filter-btn" data-filter=".webdev">مواقع</button>
-            <button class="filter-btn" data-filter=".appdev">
-              هوية بصرية
-            </button>
+            <button class="filter-btn" data-filter=".appdev">طبيقات اندرويد </button>
+            <button class="filter-btn" data-filter=".printable">مطبوعات</button>
 
           </div>
 
@@ -312,38 +311,38 @@
       </div>
     </section>
 
-    <!-- <section class="records">
-    
-          <div class="container">
+    <section class="records">
+
+      <div class="container">
         <div class="wrap">
           <div class="record-circle">
-            <h2 class="number" data-num="235">0</h2>
-            <h4 class="sub-title">Projects</h4>
+            <h2 class="number" data-num="4">0</h2>
+            <h4 class="sub-title">مشروع</h4>
           </div>
         </div>
 
         <div class="wrap">
           <div class="record-circle active">
-            <h2 class="number" data-num="174">0</h2>
-            <h4 class="sub-title">Happy Clients</h4>
+            <h2 class="number" data-num="4">0</h2>
+            <h4 class="sub-title">عملاء سعداء</h4>
           </div>
         </div>
 
         <div class="wrap">
           <div class="record-circle">
-            <h2 class="number" data-num="892">0</h2>
-            <h4 class="sub-title">Work Hour</h4>
+            <h2 class="number" data-num="40">0</h2>
+            <h4 class="sub-title">ساعة عمل</h4>
           </div>
         </div>
 
         <div class="wrap">
           <div class="record-circle">
-            <h2 class="number" data-num="368">0</h2>
-            <h4 class="sub-title">Awards</h4>
+            <h2 class="number" data-num="11">0</h2>
+            <h4 class="sub-title">دورة تدريبية</h4>
           </div>
         </div>
       </div>
-    </section>-->
+    </section>
 
     <section class="blog section" dir="rtl" |>
       <div class="container">
@@ -528,21 +527,25 @@
           </div>
 
           <div class="contact-form">
-            <h3 class="title">أرسل لي رسالة</h3>
-            <div class="row">
-              <input type="text" class="contact-input" placeholder="الاسم " />
-              <input type="text" class="contact-input" placeholder="العائلة" />
-            </div>
+            <form action="https://formspree.io/f/xbjwroeq" method="POST" id="my-form">
+              <h3 class="title">أرسل لي رسالة</h3>
+              <div class="row">
+                <input type="text" class="contact-input" placeholder="الاسم " required />
+                <input type="text" class="contact-input" placeholder="العائلة" required />
+              </div>
 
-            <div class="row">
-              <input type="text" class="contact-input" placeholder="الجوال" />
-              <input type="email" class="contact-input" placeholder="البريد الإلكتروني" />
-            </div>
+              <div class="row">
+                <input type="text" class="contact-input" placeholder="الجوال" />
+                <input type="email" class="contact-input" placeholder="البريد الإلكتروني" required />
+              </div>
 
-            <div class="row">
-              <textarea name="message" class="contact-input textarea" placeholder="الرسالة"></textarea>
-            </div>
-            <a href="#" class="btn">إرسال</a>
+              <div class="row">
+                <textarea name="message" class="contact-input textarea" placeholder="الرسالة" required></textarea>
+              </div>
+              <!-- <a href="#" class="btn">إرسال</a> -->
+              <button type="submit" class="btn">إرسال</button>
+            </form>
+            <div class= "text" id="status"></div>
           </div>
         </div>
       </div>
@@ -611,17 +614,15 @@
             <h3>Follow me</h3>
             <span class="footer-line"></span>
             <div class="social-media">
-              <a href="#">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="#">
+
+              <a href="https://mobile.twitter.com/samar_225">
                 <i class="fab fa-twitter"></i>
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/samar225/">
                 <i class="fab fa-instagram"></i>
               </a>
-              <a href="#">
-                <i class="fab fa-linkedin-in"></i>
+              <a href="https://github.com/samar225?tab=repositories">
+                <i class="fab fa-github"></i>
               </a>
             </div>
           </div>
@@ -635,7 +636,7 @@
       </div>
     </div>
   </footer>
-
+  <script src="./js/form.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="./js/isotope.pkgd.min.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
