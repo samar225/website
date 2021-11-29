@@ -949,6 +949,10 @@ header .circle {
   right: 71%;
   opacity: 0.15;
 }
+.more-blog {
+  display: flex;
+  justify-content: center;
+}
 
 /* End Blog */
 
@@ -1066,7 +1070,7 @@ header .circle {
 .contact:after {
   top: 40%;
   height: 60%;
-  background: url("../img/contact-bg.png") center bottom / cover;
+background-color: #6b44e0;
 }
 
 .contact-box {
