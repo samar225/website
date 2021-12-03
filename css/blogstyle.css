@@ -50,27 +50,19 @@ img {
   
   position: relative;
   z-index: 5;
-  max-width: 92rem;
-  padding: 0 4rem;
+  max-width: 75%;
+ height: 300px;
   text-align: right;
-  margin: -5% ;
+  margin-bottom: 2rem ;
+  background-color: var(--main-color);
+
 }
 
 .stop-scrolling {
   height: 100%;
   overflow: hidden;
-}body{
-    border: #b9de52 solid 15px;
 }
 
-.background-bg {
-    position: absolute;
-    width: 100%;
-    height: 200px;
-    top: 0;
-    left: 0;
-    background-color: var(--main-color);
-  }
   .title {
     position: relative;
     display: inline-block;
