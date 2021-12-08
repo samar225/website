@@ -459,6 +459,7 @@ header .circle {
   align-items: center;
   justify-content: center;
   text-align: center;
+ 
   padding: 2rem 2rem;
   overflow: hidden;
   transition: 0.3s;
@@ -858,6 +859,7 @@ header .circle {
 .blog-wrap {
   position: relative;
   margin: 1.3rem 0.5rem;
+  
 }
 
 .blog-card {
@@ -867,6 +869,7 @@ header .circle {
   background-color: var(--light-two);
   transition: 0.3s;
   position: relative;
+  box-shadow: -10px 10px 10px rgb(0, 0,0, 0.02);
 }
 
 .blog-card:after {
