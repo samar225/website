@@ -1811,6 +1811,9 @@ background-color: #6b44e0;
 }
 
 @media (max-width: 850px) {
+.container{
+    margin-top: 1rem;
+  }
   .grid-2 {
     grid-template-columns: 1fr !important;
   }
@@ -2101,8 +2104,10 @@ background-color: #6b44e0;
 }
 
 @media (max-width: 560px) {
+
   .container {
     padding: 0 2rem;
+    margin-top: 1rem;
   }
 
   .title {
