@@ -293,7 +293,7 @@ background-color: var(--light-three);}
     padding: 2rem;
     direction: rtl;
     border-radius: 16px;
-    
+    text-align: justify;
     width: 60%;
     margin-bottom: 2rem;
 box-shadow: -10px 10px 10px rgb(0, 0,0, 0.03);
@@ -403,7 +403,7 @@ box-shadow: -10px 10px 10px rgb(0, 0,0, 0.03);
   font-size: 1.2rem;
   line-height: 1.6;
   color: #666;
-  text-align: right;
+  text-align: justify;
 }
 
 .blog-card:hover {
