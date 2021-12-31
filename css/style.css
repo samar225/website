@@ -1219,9 +1219,10 @@ background-color: #6b44e0;
 
 }
 
-.footer .grid-21 {
-  display: grid;
-  grid-template-columns: 6.5fr 2fr;
+.footer .mail-list {
+  max-width: 50%;
+ margin:  0 auto;
+ 
 }
 
 .grid-4-col {
@@ -1288,8 +1289,8 @@ background-color: #6b44e0;
 }
 
 .bottom-footer {
- 
-  padding: 0 1.7rem;
+ max-width: 70%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between; 
