@@ -663,7 +663,8 @@ header .circle {
   font-size: 1.5rem;
 }
 
-.img-overlay h5 {
+.img-overlay a {
+  color: #fff;
   font-size: 1.15rem;
   font-weight: 300;
 }
