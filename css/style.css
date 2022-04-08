@@ -2080,10 +2080,10 @@ background-color: #6b44e0;
     justify-items: center;
     align-items: center;
     padding: 1.5rem 0 0 0;
-    margin-top: 2.5rem;
+    margin-top: 0.5rem;
     position: relative;
   }
-
+/* 
   .bottom-footer:before {
     content: "";
     position: absolute;
@@ -2094,7 +2094,7 @@ background-color: #6b44e0;
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+  } */
 
   .followme-wrap {
     margin-top: 0.8rem;
