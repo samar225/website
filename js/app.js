@@ -1,6 +1,3 @@
-const filter_btns = document.querySelectorAll(".filter-btn");
-const skills_wrap = document.querySelector(".skills");
-const skills_bars = document.querySelectorAll(".skill-progress");
 const records_wrap = document.querySelector(".records");
 const records_numbers = document.querySelectorAll(".number");
 const footer_input = document.querySelector(".footer-input");
@@ -25,16 +22,6 @@ hamburger_menu.addEventListener("click", () => {
 
 links.forEach((link) => link.addEventListener("click", () => closeMenu()));
 
-filter_btns.forEach((btn) =>
-  btn.addEventListener("click", () => {
-    filter_btns.forEach((button) => button.classList.remove("active"));
-    btn.classList.add("active");
-
-    let filterValue = btn.dataset.filter;
-
-    $(".grid").isotope({ filter: filterValue });
-  })
-);
 
 $(".grid").isotope({
   itemSelector: ".grid-item",
@@ -43,7 +30,7 @@ $(".grid").isotope({
 });
 
 window.addEventListener("scroll", () => {
-  skillsEffect();
+ 
   countUp();
 });
 
@@ -53,10 +40,6 @@ function checkScroll(el) {
   return false;
 }
 
-function skillsEffect() {
-  if (!checkScroll(skills_wrap)) return;
-  skills_bars.forEach((skill) => (skill.style.width = skill.dataset.progress));
-}
 
 function countUp() {
   if (!checkScroll(records_wrap)) return;
