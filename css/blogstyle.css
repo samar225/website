@@ -40,17 +40,21 @@ header {
   position: relative;
 }
 header .container{
-  margin: 0 1rem;
+  /* margin: 0 64px; */
+  width: 100%;
 }
 nav {
   width: 100%;
   position: relative;
   z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 10rem;
   align-items: center;
 }

@@ -28,12 +28,12 @@
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/responsive.css" />
 
-  <meta name="description" content="مصممة و مبرمجة مواقع ، مصممة جرافيك و مصممة واجهات تطبيقات الجوال ، أساعدك في عمل هوية بصرية لحساباتك على السوشال ميديا أو عمل موقع إلكتروني شخصي أو تجاري لك.">
+<meta name="description" content="مصممة و مبرمجة مواقع  ، أساعدك في  عمل موقع إلكتروني شخصي أو تجاري لك.">
 <link rel="canonical" href="https://samar-ghilan.netlify.app/">
 <meta property="og:locale" content="ar_AR">
 <meta property="og:type" content="article">
 <meta property="og:title" content="الرئيسية | Samar Ghilan">
-<meta property="og:description" content="مصممة و مبرمجة مواقع ، مصممة جرافيك و مصممة واجهات تطبيقات الجوال ، أساعدك في عمل هوية بصرية لحساباتك على السوشال ميديا أو عمل موقع إلكتروني شخصي أو تجاري لك.">
+<meta property="og:description" content="مصممة و مبرمجة مواقع ، أساعدك عمل موقع إلكتروني شخصي أو تجاري لك.">
 <meta property="og:url" content="https://samar-ghilan.netlify.app">
 <meta property="og:site_name" content="Samar Ghilan">
 <meta property="article:published_time" content="2021-12-14T16:59:26+00:00">
@@ -43,6 +43,15 @@
 <meta name="twitter:data1" content="samar_225">
 <meta name="twitter:label2" content="وقت القراءة المُقدّر">
 <meta name="twitter:data2" content="3 دقائق">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+   $(document).ready(function(){
+      $('#pricing').load("pricing.html");
+   
+   });
+</script>
+
 </head>
 
 <body>
@@ -92,7 +101,7 @@
             <h1 class="header-title">مرحبا، أنا سمر </h1>
             <p class="text">
               مصممة و مطورة مواقع ، أساعدك في
-              <span class="underline">عمل موقع إلكتروني</span>
+              <span class="underline"> موقع إلكتروني </span>
               شخصي أو تجاري لك.
             </p>
             <a href="#portfolio" target="_blank" class="btn">نماذج الأعمال</a>
@@ -150,7 +159,7 @@
             <div class="card" data-card="App">
               <div class="card-content z-index">
                 <img src="./img/app-icon.svg" class="icon" alt="" />
-                <h3 class="title-sm"> UI/UX تصميم </h3>
+                <h3 class="title-sm">Front-end  </h3>
                 <p class="text">
                   احصل على تصميم واجهة المستخدم للتطبيقات و المواقع
                 </p>
@@ -161,7 +170,11 @@
         </div>
       </div>
     </section>
+<section class="Pricing section">
+  <!-- <div id="pricing"></div> -->
 
+
+</section>
     <section class="portfolio section" id="portfolio">
       <div class="background-bg">
 
@@ -171,7 +184,7 @@
         <div class="section-header">
           <h3 class="title" data-title="My works">نماذج الأعمال</h3>
           <p class="text">
-  اضغط على الصورة لزيارة الموقع
+  اضغط على الصورة ثم زيارة الموقع
                 </p>
         </div>
 
@@ -265,14 +278,14 @@
       <div class="container">
         <div class="wrap">
           <div class="record-circle">
-            <h2 class="number" data-num="5">0</h2>
+            <h2 class="number" data-num="6">0</h2>
             <h4 class="sub-title">مشروع</h4>
           </div>
         </div>
 
         <div class="wrap">
           <div class="record-circle active">
-            <h2 class="number" data-num="5">0</h2>
+            <h2 class="number" data-num="6">0</h2>
             <h4 class="sub-title">عملاء سعداء</h4>
           </div>
         </div>
@@ -348,6 +361,27 @@
             </div>
           </div>
 
+          <div class="blog-wrap">
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="/img/blog3.jpg" alt="" />
+              </div>
+  
+              <div class="blog-content">
+                <div class="blog-info">
+                  <h5 class="blog-date">ابريل ، 2022</h5>
+                  <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                </div>
+                <h3 class="title-sm"> 6 أقسام مهمة لجعل موقعك احترافي</h3>
+                <p class="blog-text">عليك التفكير أولاً كمستخدم أو كعميل ، فالعميل يحب أن يرى معلومات واضحة وكافية عن الشيء الذي يبحث عنه. لذا احرص على أن يشمل الأقسام التالية
+                </p>
+                <a href="./blogs/6-أقسام-مهمة-لجعل-موقعك-احترافي.html" class="btn small">المزيد</a>
+              </div>
+            </div>
+  
+  
+          </div>
+
         </div>
         <div class="more-blog">
           <a href="./blog/blog.html" class="btn">كل المقالات</a>
@@ -368,6 +402,27 @@
           <div class="column-1 reviews">
             <div class="swiper-container">
               <div class="swiper-wrapper">
+
+                <div class="swiper-slide review">
+                  <i class="fas fa-quote-left quote"></i>
+                  <div class="rate">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+
+                  <p class="review-text">
+                    أحستني شغل جميل و الك الحق تفتخري بعملك
+                  </p>
+
+                  <div class="review-info">
+                    <h3 class="review-name">Manar</h3>
+                    <h5 class="review-job"> Manager & Architect , Iraq</h5>
+                  </div>
+                </div>
+
                 <div class="swiper-slide review">
                   <i class="fas fa-quote-left quote"></i>
                   <div class="rate">
@@ -429,9 +484,9 @@
 
     <section class="hireme" id="hireme">
       <div class="container">
-        <h3 class="title">أستطيع مساعدتك؟</h3>
+        <h3 class="title"> اطلب موقعك الآن</h3>
         <p class="text">
-تحتاج موقع شخصي كسيرة ذاتية ؟ تحتاج براند لك على السوشال ميديا ؟ لديك أسئلة؟
+تحتاج موقع شخصي كسيرة ذاتية أو بورتفوليو ؟ أو موقع لشركتك ؟ لديك أسئلة؟
 
         </p>
         <a href="https://wa.me/message/ZJXU2MF52YYPB1" class="btn">
