@@ -198,7 +198,7 @@ img {
   color: #6b44e0;
   font-weight: 600;
   font-size: 1.6rem;
-  line-height: 1cm;
+  line-height: 15px;
 }
 
 .points-sq {
@@ -446,7 +446,7 @@ header .circle {
 .card {
   position: relative;
   width: 100%;
-  max-width: 390px;
+  max-width: 290px;
   min-height: 420px;
   background-color: var(--light-three);
   display: flex;
