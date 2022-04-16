@@ -446,7 +446,7 @@ header .circle {
 .card {
   position: relative;
   width: 100%;
-  max-width: 290px;
+  max-width: 390px;
   min-height: 420px;
   background-color: var(--light-three);
   display: flex;
