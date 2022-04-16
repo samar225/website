@@ -197,7 +197,7 @@ img {
 .title-sm {
   color: #6b44e0;
   font-weight: 600;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   line-height: 15px;
 }
 
@@ -497,7 +497,7 @@ header .circle {
 }
 
 .card .title-sm {
-  line-height: 0.8;
+  line-height: 1.5;
 }
 
 .card .text {
