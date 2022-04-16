@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap");
 
 :root {
   --dark-one: #1b1b1b;
@@ -22,8 +22,7 @@
 html {
   scroll-behavior: smooth;
 }
-body{
-
+body {
 }
 body,
 button,
@@ -44,9 +43,7 @@ img {
   width: 100%;
 }
 
-
 .container {
-  
   position: relative;
   z-index: 5;
   max-width: 92rem;
@@ -61,16 +58,14 @@ img {
 }
 
 .grid-2 {
-  
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
 }
 .grid-21 {
-  
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
 }
@@ -79,13 +74,12 @@ img {
   color: var(--dark-two);
   line-height: 1.6;
 }
-.text .underline{ 
-  box-shadow: inset 0 -5px #b9de52
+.text .underline {
+  box-shadow: inset 0 -5px #b9de52;
 }
 .column-1 {
   margin-right: 1.5rem;
   margin-left: 2.5rem;
-  
 }
 
 .column-2 {
@@ -198,13 +192,13 @@ img {
 .section-header .text {
   max-width: 600px;
   margin: 0 auto;
-  
 }
 
 .title-sm {
   color: #6b44e0;
   font-weight: 600;
   font-size: 1.6rem;
+  line-height: 1cm;
 }
 
 .points-sq {
@@ -258,7 +252,6 @@ nav .container {
 }
 
 .logo {
-  
   display: flex;
   align-items: center;
 }
@@ -364,7 +357,6 @@ nav.open .links {
   font-size: 3.8rem;
   line-height: 0.8;
   color: var(--dark-one);
- 
 }
 
 .header-content .text {
@@ -461,7 +453,7 @@ header .circle {
   align-items: center;
   justify-content: center;
   text-align: center;
- 
+
   padding: 2rem 2rem;
   overflow: hidden;
   transition: 0.3s;
@@ -534,7 +526,6 @@ header .circle {
 .portfolio {
   position: relative;
   width: 100%;
-  
 }
 
 .background-bg {
@@ -552,7 +543,7 @@ header .circle {
 }
 
 .portfolio .title:after {
-  background-color:#6b44e0;
+  background-color: #6b44e0;
 }
 
 .filter {
@@ -577,7 +568,6 @@ header .circle {
   cursor: pointer;
   border-radius: 2rem;
   transition: 0.3s;
-
 }
 
 .filter-btn.active {
@@ -590,7 +580,6 @@ header .circle {
   padding: 1rem 1.2rem;
   display: flex;
   justify-content: center;
-  
 }
 
 .gallery-image {
@@ -688,9 +677,8 @@ header .circle {
 
 .about {
   overflow: hidden;
- background-color: var(--light-two);
+  background-color: var(--light-two);
 }
-
 
 .about img {
   max-width: 600px;
@@ -706,15 +694,12 @@ header .circle {
 
 .skill {
   margin: 1rem 0;
-  
 }
 
 .skill-title {
   color: #555;
   font-weight: 600;
   margin-bottom: 0.3rem;
- 
-  
 }
 
 .skill-bar {
@@ -862,7 +847,6 @@ header .circle {
 .blog-wrap {
   position: relative;
   margin: 1.3rem 0.5rem;
-  
 }
 
 .blog-card {
@@ -872,7 +856,7 @@ header .circle {
   background-color: var(--light-two);
   transition: 0.3s;
   position: relative;
-  box-shadow: -10px 10px 10px rgb(0, 0,0, 0.02);
+  box-shadow: -10px 10px 10px rgb(0, 0, 0, 0.02);
 }
 
 .blog-card:after {
@@ -1070,13 +1054,13 @@ header .circle {
 .contact:before {
   top: 0;
   height: 40%;
-  background-color: var(--main-color) ;
+  background-color: var(--main-color);
 }
 
 .contact:after {
   top: 40%;
   height: 60%;
-background-color: #6b44e0;
+  background-color: #6b44e0;
 }
 
 .contact-box {
@@ -1186,7 +1170,6 @@ background-color: #6b44e0;
   margin-top: 0.6rem;
 }
 
-
 /* End Contact */
 
 /* Hire me */
@@ -1206,24 +1189,20 @@ background-color: #6b44e0;
 .hireme .text {
   max-width: 1000px;
   margin: 0 auto 1.6rem auto;
-
 }
 
 /* End Hire me */
 
 /* Footer */
 
-.footer  {
+.footer {
   background-color: #222;
   padding: 6rem 0;
- 
-
 }
 
 .footer .mail-list {
   max-width: 50%;
- margin:  0 auto;
- 
+  margin: 0 auto;
 }
 
 .grid-4-col {
@@ -1290,11 +1269,11 @@ background-color: #6b44e0;
 }
 
 .bottom-footer {
- max-width: 70%;
+  max-width: 70%;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .copyright .text {
@@ -1815,7 +1794,7 @@ background-color: #6b44e0;
 }
 
 @media (max-width: 850px) {
-.container{
+  .container {
     margin-top: 1rem;
   }
   .grid-2 {
@@ -1932,13 +1911,11 @@ background-color: #6b44e0;
 
   .grid-item {
     width: 50%;
-    
   }
 
   .gallery-image {
     height: 210px;
     max-width: 270px;
-   
   }
 
   .background-bg {
@@ -2083,7 +2060,7 @@ background-color: #6b44e0;
     margin-top: 0.5rem;
     position: relative;
   }
-/* 
+  /* 
   .bottom-footer:before {
     content: "";
     position: absolute;
@@ -2108,7 +2085,6 @@ background-color: #6b44e0;
 }
 
 @media (max-width: 560px) {
-
   .container {
     padding: 0 2rem;
     margin-top: 1rem;
